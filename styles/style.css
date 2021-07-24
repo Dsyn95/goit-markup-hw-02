@@ -59,18 +59,14 @@ a:visited {
   color: #212121;
   text-decoration: none;
 }
-.main-nav li a:hover {
-  color: #2196f3;
-}
-
-.main-nav li a:active {
+.main-nav li a:hover,
+.main-nav .active {
   color: #2196f3;
 }
 .contact-nav {
   display: flex;
   list-style-type: none;
 }
-
 .main-content {
   display: flex;
   align-items: center;
@@ -114,5 +110,37 @@ a:visited {
   color: #212121;
 }
 .active {
+  color: #2196f3;
+}
+.paragraph-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+.number {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #757575;
+}
+.mail {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
   color: #2196f3;
 }
