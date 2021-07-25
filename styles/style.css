@@ -188,12 +188,24 @@ header {
   list-style: none;
 }
 /*Portfolio*/
-.page-buttons li a:hover,
-.page-buttons .page-all {
-  color: var(--actual-color-text);
+.button-filter:hover,
+.button-filter:focus {
+  outline-width: 0;
+  background-color: var(--actual-color-text);
+  color: var(--white-index);
 }
-.page-buttons {
-  list-style: none;
+.button-filter {
+  display: list-item;
+  padding: 6px 22px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--heads-color-text);
+  border: none;
 }
 .article {
   font-family: 'Roboto', sans-serif;
