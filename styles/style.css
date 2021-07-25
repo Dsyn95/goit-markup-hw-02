@@ -21,12 +21,11 @@ header {
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: var(--actual-color-text);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo span {
   color: var(--heads-color-text);
@@ -38,7 +37,7 @@ header {
   list-style: none;
 }
 .main-nav li a {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -56,7 +55,7 @@ header {
 }
 .address-bar {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -73,7 +72,7 @@ header {
   background-color: var(--footer-bg-color);
 }
 .main-content-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   width: 100%;
   font-style: normal;
   font-weight: 900;
@@ -82,6 +81,11 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--white-index);
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: #188ce8;
   color: var(--white-index);
 }
 .main-button {
@@ -99,9 +103,9 @@ header {
   list-style: none;
 }
 .header-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -109,7 +113,7 @@ header {
   color: var(--heads-color-text);
 }
 .paragraph-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -121,7 +125,7 @@ header {
 .topic {
   list-style: none;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-weight: 700;
 }
 .applications {
@@ -137,7 +141,7 @@ header {
   list-style: none;
 }
 .names {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -146,9 +150,9 @@ header {
   letter-spacing: 0.03em;
 }
 .post {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -162,7 +166,7 @@ header {
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -173,21 +177,27 @@ header {
   color: var(--white-index);
 }
 .physical-adress {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--white-index);
 }
 .footer-adress-bar a:hover {
-  color: var(--white-index);
+  color: #ffffff99;
 }
 .footer-adress-bar {
   list-style: none;
 }
 /*Portfolio*/
+.portfolio-cards {
+  list-style: none;
+}
+.page-buttons {
+  list-style: none;
+}
 .button-filter:hover,
 .button-filter:focus {
   outline-width: 0;
@@ -199,7 +209,7 @@ header {
   padding: 6px 22px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -208,7 +218,7 @@ header {
   border: none;
 }
 .article {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -217,9 +227,9 @@ header {
   text-align: left;
 }
 .poster {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
